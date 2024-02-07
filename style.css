@@ -13,8 +13,8 @@ body  {
 .card {
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg, #b700ff, #00fff7);
-    box-shadow: 0 0 15px rgb(255, 255, 255), 0 0 15px rgb(255, 255, 255);
+    background: linear-gradient(135deg, #b700ff, #1f0e8b);
+    box-shadow: 0 0 15px blue;
     color: #fff;
     margin: 100px auto 0;
     border-radius: 20px;
@@ -81,7 +81,7 @@ body  {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 32px;
     margin-top: 50px;
 }
 
