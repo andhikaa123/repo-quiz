@@ -1,3 +1,4 @@
+/* Base Styles for All Screen Sizes */
 * {
     margin: 0;
     padding: 0;
@@ -89,7 +90,8 @@ body {
     margin-right: 10px;
 }
 
-.humidity, .wind {
+.humidity,
+.wind {
     font-size: 28px;
     margin-top: -6px;
 }
@@ -102,7 +104,7 @@ body {
     display: none;
 }
 
-/* Responsive Styles */
+/* Responsive Styles for Screen Size 365px */
 @media only screen and (max-width: 365px) {
     .card {
         padding: 30px 25px;
@@ -133,11 +135,8 @@ body {
     }
 }
 
-@media only screen and (min-width: 366px) and (max-width: 1024px) {
-    .card {
-        margin-top: 80px;
-    }
-
+/* Responsive Styles for Screen Size 768px */
+@media only screen and (min-width: 366px) and (max-width: 767px) {
     .search input {
         font-size: 16px;
         height: 50px;
@@ -156,6 +155,33 @@ body {
 
     .weather h2 {
         font-size: 35px;
+    }
+
+    .details {
+        margin-top: 40px;
+    }
+}
+
+/* Responsive Styles for Screen Size 1024px */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .search input {
+        font-size: 16px;
+        height: 50px;
+        padding: 8px 20px;
+        margin-right: 12px;
+    }
+
+    .search button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .weather h1 {
+        font-size: 70px;
+    }
+
+    .weather h2 {
+        font-size: 40px;
     }
 
     .details {
