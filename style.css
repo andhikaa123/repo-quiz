@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-body  {
+body {
     background: #222;
 }
 
@@ -18,7 +18,6 @@ body  {
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
-
 }
 
 .search {
@@ -26,7 +25,6 @@ body  {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .search input {
@@ -40,7 +38,6 @@ body  {
     flex: 1;
     margin-right: 16px;
     font-size: 18px;
-
 }
 
 .search button {
@@ -51,10 +48,9 @@ body  {
     width: 60px;
     height: 60px;
     cursor: pointer;
-
 }
 
-.search button img{
+.search button img {
     width: 16px;
 }
 
@@ -68,7 +64,6 @@ body  {
     font-weight: 500;
 }
 
-
 .weather h2 {
     font-size: 45px;
     font-weight: 400;
@@ -77,8 +72,8 @@ body  {
 
 .details {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     padding: 0 20px;
     margin-top: 50px;
 }
@@ -98,10 +93,6 @@ body  {
     font-size: 28px;
     margin-top: -6px;
 }
-/* 
-.weather {
-    display: none;
-} */
 
 .error {
     text-align: left;
@@ -109,4 +100,65 @@ body  {
     font-size: 14px;
     margin-top: 10px;
     display: none;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 365px) {
+    .card {
+        padding: 30px 25px;
+    }
+
+    .search input {
+        font-size: 16px;
+        height: 50px;
+        padding: 8px 20px;
+        margin-bottom: 12px;
+    }
+
+    .search button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .weather h1 {
+        font-size: 50px;
+    }
+
+    .weather h2 {
+        font-size: 30px;
+    }
+
+    .details {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 366px) and (max-width: 1024px) {
+    .card {
+        margin-top: 80px;
+    }
+
+    .search input {
+        font-size: 16px;
+        height: 50px;
+        padding: 8px 20px;
+        margin-right: 12px;
+    }
+
+    .search button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .weather h1 {
+        font-size: 60px;
+    }
+
+    .weather h2 {
+        font-size: 35px;
+    }
+
+    .details {
+        margin-top: 40px;
+    }
 }
