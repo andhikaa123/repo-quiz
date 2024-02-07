@@ -55,11 +55,11 @@ body {
     height: 60px;
     cursor: pointer;
 }
-
+/* 
 .weather {
     display: none;
 } 
-
+ */
 .weather-icon {
     width: 100%; 
     max-width: 170px; 
