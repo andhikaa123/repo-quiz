@@ -140,7 +140,8 @@ body  {
     }
 
     .details {
-        margin-top: 10px 20px;
+        margin-top: 10px;
+        
     }
 }
 
@@ -168,6 +169,7 @@ body  {
 
     .details {
         margin-top: 40px;
+        padding: 0 20px;
     }
 }
 
