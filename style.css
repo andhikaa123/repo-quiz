@@ -105,19 +105,19 @@ body {
 /* Responsive Styles */
 @media only screen and (max-width: 365px) {
     .card {
-        padding: 30px 25px;
+        padding: 20px 20px;
     }
 
     .search input {
         font-size: 16px;
-        height: 50px;
+        height: 40px;
         padding: 8px 20px;
         margin-bottom: 12px;
     }
 
     .search button {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
     }
 
     .weather h1 {
